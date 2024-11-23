@@ -1,0 +1,1255 @@
+2024-11-19 12:29:53,228 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:29:53,229 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:29:53,230 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:29:53,373 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:29:53,373 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:29:53,386 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:29:53,397 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:29:53,397 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:29:53,516 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:29:53,588 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:29:53,590 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 12:29:53,591 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:29:53,592 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:29:53,593 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:29:53,715 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:29:53,716 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:29:53,719 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:29:53,721 - INFO - Worker 14a77fae-b8d8-46a4-a019-3c14bc525d4c started and ready to consume tasks.
+2024-11-19 12:29:53,732 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:29:53,784 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:29:53,786 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:29:53,795 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 12:29:53,796 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 12:29:53,796 - INFO - Starting new heartbeat thread
+2024-11-19 12:29:53,799 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 12:29:53,799 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:29:53,803 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:29:53,804 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:29:53,929 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:29:54,062 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 12:29:54,127 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:29:54,132 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:29:54,187 - INFO - Successfully joined group worker-group1 with generation 13
+2024-11-19 12:29:54,187 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 12:29:54,188 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4)} for group worker-group1
+2024-11-19 12:33:47,772 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:33:47,774 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:33:47,775 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:33:47,887 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:33:47,890 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:33:47,963 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:33:48,002 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:33:48,003 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:33:48,139 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:33:48,140 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:33:48,140 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 12:33:48,141 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:33:48,142 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:33:48,142 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:33:48,273 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:33:48,324 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:33:48,345 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:33:48,351 - INFO - Worker 86d8f254-e3b9-424a-9ded-e767c753bf65 started and ready to consume tasks.
+2024-11-19 12:33:48,402 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:33:48,405 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:33:48,448 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:33:48,470 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 12:33:48,471 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 12:33:48,492 - INFO - Starting new heartbeat thread
+2024-11-19 12:33:48,531 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 12:33:48,534 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:33:48,594 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:33:48,594 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:33:48,694 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:33:48,737 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 12:33:48,775 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:33:48,778 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:33:48,781 - INFO - Successfully joined group worker-group1 with generation 15
+2024-11-19 12:33:48,813 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 12:33:48,841 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 12:33:50,657 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:33:50,662 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:33:50,662 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:33:50,767 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:33:50,768 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:33:50,782 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:33:50,858 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:33:50,858 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:33:50,965 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:33:50,969 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:33:50,971 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 12:33:50,973 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:33:50,975 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:33:50,975 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:33:51,104 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:33:51,105 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:33:51,157 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:33:51,176 - INFO - Worker fda4cbe0-301a-492e-95f8-b639495beffb started and ready to consume tasks.
+2024-11-19 12:33:51,205 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:33:51,244 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 12:33:51,247 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:33:51,249 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 12:33:51,249 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:33:51,249 - INFO - Starting new heartbeat thread
+2024-11-19 12:33:51,254 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 12:33:51,262 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:33:51,310 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:33:51,321 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:33:51,428 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:33:51,881 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 12:33:51,883 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 12:33:51,883 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:33:51,888 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 12:33:51,897 - INFO - Successfully joined group worker-group1 with generation 16
+2024-11-19 12:33:51,898 - INFO - Successfully joined group worker-group1 with generation 16
+2024-11-19 12:33:51,904 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 12:33:51,904 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=4)} for group worker-group1
+2024-11-19 12:33:51,931 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 12:33:51,932 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=1)} for group worker-group1
+2024-11-19 12:33:51,980 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:33:51,982 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:33:53,777 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:33:53,779 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:33:53,782 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:33:53,988 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:33:54,009 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:33:54,050 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:33:54,050 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:33:54,050 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:33:54,228 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:33:54,229 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:33:54,232 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 12:33:54,234 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:33:54,236 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:33:54,237 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:33:54,375 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:33:54,376 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:33:54,381 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:33:54,383 - INFO - Worker d3c24e3e-40b2-4b58-aaa9-bcbba10b9502 started and ready to consume tasks.
+2024-11-19 12:33:54,432 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 12:33:54,437 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 12:33:54,436 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:33:54,489 - INFO - Starting new heartbeat thread
+2024-11-19 12:33:54,553 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:33:54,563 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 12:33:54,563 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:33:54,565 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:33:54,623 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:33:54,626 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:33:54,739 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:33:54,911 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 12:33:54,912 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=4)} for group worker-group1
+2024-11-19 12:33:54,912 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:33:54,935 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 12:33:54,937 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=1)} for group worker-group1
+2024-11-19 12:33:54,937 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:33:54,943 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 12:33:54,977 - INFO - Successfully joined group worker-group1 with generation 17
+2024-11-19 12:33:54,981 - INFO - Successfully joined group worker-group1 with generation 17
+2024-11-19 12:33:54,981 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 12:33:54,981 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 12:33:54,981 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 12:33:54,982 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4)} for group worker-group1
+2024-11-19 12:33:54,983 - INFO - Successfully joined group worker-group1 with generation 17
+2024-11-19 12:33:54,984 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)]
+2024-11-19 12:33:54,988 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 12:33:55,007 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:33:55,031 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:35:38,852 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:35:38,853 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:35:38,855 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:35:38,959 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:35:38,960 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:35:38,965 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:35:38,966 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:35:38,966 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:35:39,071 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:35:39,071 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:35:39,072 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 12:35:39,073 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:35:39,073 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:35:39,074 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:35:39,178 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:35:39,179 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:35:39,182 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:35:39,184 - INFO - Worker 27168cef-600f-428d-8012-26fa5ea3dd5c started and ready to consume tasks.
+2024-11-19 12:35:39,219 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 12:35:39,219 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 12:35:39,219 - INFO - Starting new heartbeat thread
+2024-11-19 12:35:39,261 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 12:35:39,262 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:35:39,265 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:35:39,265 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:35:39,272 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:35:39,273 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:35:39,274 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:35:39,366 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:35:41,252 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 12:35:41,253 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 12:35:41,256 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:35:41,668 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 12:35:41,671 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 12:35:41,673 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:35:41,762 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 12:35:41,786 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4)} for group worker-group1
+2024-11-19 12:35:41,786 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:35:41,814 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 12:35:41,870 - INFO - Successfully joined group worker-group1 with generation 18
+2024-11-19 12:35:41,870 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 12:35:41,870 - INFO - Successfully joined group worker-group1 with generation 18
+2024-11-19 12:35:41,870 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=4)} for group worker-group1
+2024-11-19 12:35:41,871 - INFO - Successfully joined group worker-group1 with generation 18
+2024-11-19 12:35:41,872 - INFO - Successfully joined group worker-group1 with generation 18
+2024-11-19 12:35:41,872 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 12:35:41,872 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=2)]
+2024-11-19 12:35:41,873 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=5)} for group worker-group1
+2024-11-19 12:35:41,873 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=3)]
+2024-11-19 12:35:41,878 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 12:35:41,878 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 12:35:41,927 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:35:41,986 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:37:04,202 - INFO - 'sub' task completed: 5 - 3 = 2
+2024-11-19 12:37:04,201 - INFO - 'add' task completed: 1 + 2 = 3
+2024-11-19 12:37:04,265 - INFO - 'multiply' task completed: 2 * 4 = 8
+2024-11-19 12:37:04,282 - INFO - 'add' task completed: 10 + 20 = 30
+2024-11-19 12:37:14,271 - INFO - 'multiply' task completed: 3 * 5 = 15
+2024-11-19 12:37:14,277 - INFO - 'sub' task completed: 15 - 7 = 8
+2024-11-19 12:38:16,279 - INFO - Stopping heartbeat thread
+2024-11-19 12:38:23,331 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 12:38:23,337 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 12:38:23,339 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:38:29,908 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 12:38:29,926 - INFO - Successfully joined group worker-group1 with generation 19
+2024-11-19 12:38:29,927 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 12:38:29,928 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=5)} for group worker-group1
+2024-11-19 12:56:34,521 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:56:34,524 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:56:34,525 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:56:34,668 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:56:34,689 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:56:34,725 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:56:34,727 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:56:34,727 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:56:34,834 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:56:34,835 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:56:34,836 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 12:56:34,836 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:56:34,837 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:56:34,840 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:56:34,944 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:56:34,945 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:56:34,950 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:56:34,953 - INFO - Worker f83c594a-5f79-4d87-a510-8131aaa2d5f6 started and ready to consume tasks.
+2024-11-19 12:56:34,963 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 12:56:34,978 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 12:56:34,979 - INFO - Starting new heartbeat thread
+2024-11-19 12:56:34,979 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 12:56:35,006 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:56:35,014 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:56:35,019 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:56:35,022 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:56:35,023 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:56:35,024 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:56:35,129 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:56:37,345 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 12:56:37,346 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 12:56:37,346 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:56:37,353 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 12:56:37,400 - INFO - Successfully joined group worker-group1 with generation 20
+2024-11-19 12:56:37,401 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 12:56:37,401 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=5)} for group worker-group1
+2024-11-19 12:56:37,402 - INFO - Successfully joined group worker-group1 with generation 20
+2024-11-19 12:56:37,402 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 12:56:37,403 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=4)} for group worker-group1
+2024-11-19 12:56:37,431 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:56:37,437 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:56:37,669 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:56:37,670 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:56:37,672 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:56:37,878 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:56:37,947 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:56:38,003 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:56:38,004 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:56:38,004 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:56:38,131 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:56:38,133 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:56:38,137 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 12:56:38,141 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:56:38,142 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:56:38,143 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:56:38,285 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:56:38,291 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:56:38,354 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:56:38,383 - INFO - Worker 3ddd3bbe-c5af-4ee4-a6d9-842392603f79 started and ready to consume tasks.
+2024-11-19 12:56:38,449 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:56:38,460 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 12:56:38,462 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 12:56:38,462 - INFO - Starting new heartbeat thread
+2024-11-19 12:56:38,462 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 12:56:38,466 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:56:38,470 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:56:38,508 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:56:38,513 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:56:38,514 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:56:38,616 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:56:40,120 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:56:40,123 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:56:40,127 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:56:40,242 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:56:40,243 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:56:40,297 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:56:40,298 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:56:40,298 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:56:40,475 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 12:56:40,476 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:56:40,478 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:56:40,479 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=4)} for group worker-group1
+2024-11-19 12:56:40,479 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:56:40,482 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 12:56:40,483 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 12:56:40,484 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 12:56:40,487 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 12:56:40,487 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 12:56:40,629 - INFO - Broker version identified as 2.6.0
+2024-11-19 12:56:40,631 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 12:56:40,691 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:56:40,695 - INFO - Worker fb0af22e-970e-4ce7-a7e5-6f3f440cd960 started and ready to consume tasks.
+2024-11-19 12:56:40,779 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 12:56:40,834 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 12:56:40,792 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:56:40,848 - INFO - Starting new heartbeat thread
+2024-11-19 12:56:40,886 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:56:40,922 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:56:40,933 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 12:56:40,934 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:56:40,943 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:56:40,946 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 12:56:40,988 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=5)} for group worker-group1
+2024-11-19 12:56:40,989 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:56:41,028 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 12:56:41,056 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:56:41,071 - INFO - Successfully joined group worker-group1 with generation 21
+2024-11-19 12:56:41,072 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 12:56:41,073 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4)} for group worker-group1
+2024-11-19 12:56:41,074 - INFO - Successfully joined group worker-group1 with generation 21
+2024-11-19 12:56:41,079 - INFO - Successfully joined group worker-group1 with generation 21
+2024-11-19 12:56:41,084 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)]
+2024-11-19 12:56:41,084 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 12:56:41,116 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 12:56:41,117 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5)} for group worker-group1
+2024-11-19 12:56:41,123 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:56:41,133 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:56:44,159 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 12:56:44,159 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 12:56:44,167 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4)} for group worker-group1
+2024-11-19 12:56:44,168 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 12:56:44,178 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:56:44,178 - INFO - (Re-)joining group worker-group1
+2024-11-19 12:56:44,270 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 12:56:47,357 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 12:56:57,331 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 12:56:57,343 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 12:56:57,348 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 12:56:57,352 - INFO - Successfully joined group worker-group1 with generation 22
+2024-11-19 12:56:57,352 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 12:56:57,352 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 12:56:57,352 - INFO - Successfully joined group worker-group1 with generation 22
+2024-11-19 12:56:57,356 - INFO - Successfully joined group worker-group1 with generation 22
+2024-11-19 12:56:57,356 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 12:56:57,357 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=1)} for group worker-group1
+2024-11-19 12:56:57,358 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)]
+2024-11-19 12:56:57,379 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=0)} for group worker-group1
+2024-11-19 14:54:31,002 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 14:54:31,003 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 14:54:31,004 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 14:54:31,148 - INFO - Broker version identified as 2.6.0
+2024-11-19 14:54:31,148 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 14:54:31,153 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 14:54:31,166 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 14:54:31,166 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 14:54:31,270 - INFO - Broker version identified as 2.6.0
+2024-11-19 14:54:31,271 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 14:54:31,273 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 14:54:31,275 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 14:54:31,275 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 14:54:31,275 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 14:54:31,383 - INFO - Broker version identified as 2.6.0
+2024-11-19 14:54:31,383 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 14:54:31,385 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 14:54:31,386 - INFO - Worker e9205a77-7f2e-4d1c-a19b-4d9013bc54de started and ready to consume tasks.
+2024-11-19 14:54:31,542 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 14:54:31,543 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 14:54:31,543 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 14:54:31,753 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 14:54:31,756 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 14:54:31,757 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 14:54:32,542 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 14:54:32,543 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 14:54:32,543 - INFO - Starting new heartbeat thread
+2024-11-19 14:54:32,544 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 14:54:32,544 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 14:54:32,545 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 14:54:32,656 - INFO - (Re-)joining group worker-group1
+2024-11-19 14:54:32,748 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 14:54:32,829 - INFO - Successfully joined group worker-group1 with generation 1
+2024-11-19 14:54:32,830 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 14:54:32,830 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 14:54:48,710 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 14:54:48,711 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 14:54:48,711 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 14:54:48,819 - INFO - Broker version identified as 2.6.0
+2024-11-19 14:54:48,820 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 14:54:48,825 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 14:54:48,829 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 14:54:48,829 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 14:54:48,933 - INFO - Broker version identified as 2.6.0
+2024-11-19 14:54:48,934 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 14:54:48,934 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 14:54:48,935 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 14:54:48,935 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 14:54:48,935 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 14:54:49,037 - INFO - Broker version identified as 2.6.0
+2024-11-19 14:54:49,038 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 14:54:49,040 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 14:54:49,041 - INFO - Worker ab27b9de-aaa2-48f3-b934-07714cc820c6 started and ready to consume tasks.
+2024-11-19 14:54:49,046 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 14:54:49,048 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 14:54:49,063 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 14:54:49,069 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 14:54:49,071 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 14:54:49,071 - INFO - Starting new heartbeat thread
+2024-11-19 14:54:49,096 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 14:54:49,098 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 14:54:49,104 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 14:54:49,104 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 14:54:49,211 - INFO - (Re-)joining group worker-group1
+2024-11-19 14:54:50,913 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 14:54:50,913 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 14:54:50,913 - INFO - (Re-)joining group worker-group1
+2024-11-19 14:54:50,921 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 14:54:50,960 - INFO - Successfully joined group worker-group1 with generation 2
+2024-11-19 14:54:50,962 - INFO - Successfully joined group worker-group1 with generation 2
+2024-11-19 14:54:50,962 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 14:54:50,962 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 14:54:50,972 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 14:54:50,976 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 14:54:51,015 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 14:54:51,016 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 14:55:20,604 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 14:55:20,604 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 14:55:20,605 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 14:55:20,730 - INFO - Broker version identified as 2.6.0
+2024-11-19 14:55:20,731 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 14:55:20,740 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 14:55:20,744 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 14:55:20,753 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 14:55:20,860 - INFO - Broker version identified as 2.6.0
+2024-11-19 14:55:20,860 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 14:55:20,860 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 14:55:20,861 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 14:55:20,861 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 14:55:20,861 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 14:55:20,967 - INFO - Broker version identified as 2.6.0
+2024-11-19 14:55:20,968 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 14:55:20,976 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 14:55:20,979 - INFO - Worker 32749d2f-5811-4afd-8ec4-9ac318759222 started and ready to consume tasks.
+2024-11-19 14:55:20,980 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 14:55:20,981 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 14:55:20,995 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 14:55:20,995 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 14:55:21,014 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 14:55:21,014 - INFO - Starting new heartbeat thread
+2024-11-19 14:55:21,016 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 14:55:21,018 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 14:55:21,018 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 14:55:21,018 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 14:55:21,119 - INFO - (Re-)joining group worker-group1
+2024-11-19 14:55:21,218 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 14:55:21,218 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 14:55:21,218 - INFO - (Re-)joining group worker-group1
+2024-11-19 14:55:21,279 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 14:55:21,280 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 14:55:21,280 - INFO - (Re-)joining group worker-group1
+2024-11-19 14:55:21,283 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 14:55:21,329 - INFO - Successfully joined group worker-group1 with generation 3
+2024-11-19 14:55:21,329 - INFO - Successfully joined group worker-group1 with generation 3
+2024-11-19 14:55:21,329 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 14:55:21,329 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)]
+2024-11-19 14:55:21,329 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 14:55:21,329 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 14:55:21,338 - INFO - Successfully joined group worker-group1 with generation 3
+2024-11-19 14:55:21,341 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 14:55:21,342 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=1)} for group worker-group1
+2024-11-19 14:55:21,348 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 14:55:21,366 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 14:55:50,916 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 14:55:50,917 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 14:55:50,918 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 14:55:51,020 - INFO - Broker version identified as 2.6.0
+2024-11-19 14:55:51,021 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 14:55:51,024 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 14:55:51,024 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 14:55:51,025 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 14:55:51,127 - INFO - Broker version identified as 2.6.0
+2024-11-19 14:55:51,127 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 14:55:51,128 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 14:55:51,133 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 14:55:51,133 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 14:55:51,133 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 14:55:51,254 - INFO - Broker version identified as 2.6.0
+2024-11-19 14:55:51,255 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 14:55:51,257 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 14:55:51,261 - INFO - Worker 802bbfe7-8836-4d15-b020-145cc0be40a1 started and ready to consume tasks.
+2024-11-19 14:55:51,270 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 14:55:51,278 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 14:55:51,278 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 14:55:51,304 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 14:55:51,305 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 14:55:51,305 - INFO - Starting new heartbeat thread
+2024-11-19 14:55:51,305 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 14:55:51,306 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 14:55:51,313 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 14:55:51,315 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 14:55:51,420 - INFO - (Re-)joining group worker-group1
+2024-11-19 14:55:51,604 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 14:55:51,605 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=1)} for group worker-group1
+2024-11-19 14:55:51,606 - INFO - (Re-)joining group worker-group1
+2024-11-19 14:55:52,141 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 14:55:52,151 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 14:55:52,151 - INFO - (Re-)joining group worker-group1
+2024-11-19 14:55:52,265 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 14:55:52,266 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 14:55:52,266 - INFO - (Re-)joining group worker-group1
+2024-11-19 14:55:52,273 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 14:55:52,322 - INFO - Successfully joined group worker-group1 with generation 4
+2024-11-19 14:55:52,322 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 14:55:52,322 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=0)} for group worker-group1
+2024-11-19 14:55:52,336 - INFO - Successfully joined group worker-group1 with generation 4
+2024-11-19 14:55:52,338 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=3)]
+2024-11-19 14:55:52,338 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 14:55:52,339 - INFO - Successfully joined group worker-group1 with generation 4
+2024-11-19 14:55:52,339 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 14:55:52,339 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=1)} for group worker-group1
+2024-11-19 14:55:52,360 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 14:55:52,361 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 14:55:52,373 - INFO - Successfully joined group worker-group1 with generation 4
+2024-11-19 14:55:52,393 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=2)]
+2024-11-19 14:55:52,395 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 14:56:37,774 - INFO - Worker e9205a77-7f2e-4d1c-a19b-4d9013bc54de processing task 85b5b73e-0c4b-4e2b-b6b1-fe40658509a8: add([1, 2])
+2024-11-19 14:56:37,778 - INFO - Worker 32749d2f-5811-4afd-8ec4-9ac318759222 processing task 7904634f-7b0c-483f-8e2f-5563e3569943: sub([5, 3])
+2024-11-19 14:56:37,787 - INFO - Worker ab27b9de-aaa2-48f3-b934-07714cc820c6 processing task 7b4daf41-dc1d-4549-b999-6dc337fd08d3: multiply([2, 4])
+2024-11-19 14:56:37,789 - INFO - Worker 802bbfe7-8836-4d15-b020-145cc0be40a1 processing task 2ba9373e-0623-415b-a340-836b573ed8d6: add([10, 20])
+2024-11-19 14:56:47,794 - INFO - 'multiply' task completed: 2 * 4 = 8
+2024-11-19 14:56:47,798 - INFO - 'sub' task completed: 5 - 3 = 2
+2024-11-19 14:56:47,805 - INFO - 'add' task completed: 1 + 2 = 3
+2024-11-19 14:56:47,817 - INFO - 'add' task completed: 10 + 20 = 30
+2024-11-19 14:56:47,819 - INFO - Worker e9205a77-7f2e-4d1c-a19b-4d9013bc54de processing task 3fa27ef7-94de-41b7-a17c-b1867c6fbe5f: sub([15, 7])
+2024-11-19 14:56:47,819 - INFO - Worker 32749d2f-5811-4afd-8ec4-9ac318759222 processing task 7cfb35a1-fe4e-4cd3-b26e-11b567ff3352: multiply([3, 5])
+2024-11-19 14:56:57,822 - INFO - 'sub' task completed: 15 - 7 = 8
+2024-11-19 14:56:57,824 - INFO - 'multiply' task completed: 3 * 5 = 15
+2024-11-19 18:35:11,112 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:35:11,113 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:35:11,120 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:35:11,229 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:35:11,229 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:35:11,232 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:35:11,233 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:35:11,233 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:35:11,336 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:35:11,337 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:35:11,337 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 18:35:11,338 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:35:11,338 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:35:11,338 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:35:11,461 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:35:11,462 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:35:11,464 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:35:11,466 - INFO - Worker ec6841d9-b95d-4641-99bc-8a9d0be8c7b7 started and ready to consume tasks.
+2024-11-19 18:35:11,623 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:35:11,625 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:35:11,626 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:35:11,854 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:35:11,855 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:35:11,855 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:35:12,649 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 18:35:12,651 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 18:35:12,651 - INFO - Starting new heartbeat thread
+2024-11-19 18:35:12,655 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 18:35:12,660 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:35:12,663 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:35:12,771 - INFO - (Re-)joining group worker-group1
+2024-11-19 18:35:12,850 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 18:35:12,978 - INFO - Successfully joined group worker-group1 with generation 1
+2024-11-19 18:35:12,979 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 18:35:12,980 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=1)} for group worker-group1
+2024-11-19 18:35:48,095 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:35:48,095 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:35:48,096 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:35:48,207 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:35:48,208 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:35:48,212 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:35:48,213 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:35:48,213 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:35:48,317 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:35:48,317 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:35:48,318 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 18:35:48,318 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:35:48,319 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:35:48,319 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:35:48,422 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:35:48,422 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:35:48,425 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:35:48,426 - INFO - Worker ec23e0a8-0c93-4d50-993c-ca0050285f29 started and ready to consume tasks.
+2024-11-19 18:35:48,427 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:35:48,428 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:35:48,428 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:35:48,430 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 18:35:48,430 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 18:35:48,430 - INFO - Starting new heartbeat thread
+2024-11-19 18:35:48,430 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 18:35:48,431 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:35:48,433 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:35:48,433 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:35:48,558 - INFO - (Re-)joining group worker-group1
+2024-11-19 18:35:49,057 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 18:35:49,059 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 18:35:49,059 - INFO - (Re-)joining group worker-group1
+2024-11-19 18:35:49,101 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 18:35:49,149 - INFO - Successfully joined group worker-group1 with generation 2
+2024-11-19 18:35:49,156 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 18:35:49,156 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=1)} for group worker-group1
+2024-11-19 18:35:49,157 - INFO - Successfully joined group worker-group1 with generation 2
+2024-11-19 18:35:49,168 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 18:35:49,168 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 18:35:49,192 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:35:49,192 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:35:55,300 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:35:55,300 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:35:55,301 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:35:55,407 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:35:55,408 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:35:55,413 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:35:55,414 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:35:55,414 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:35:55,520 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:35:55,520 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:35:55,521 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 18:35:55,521 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:35:55,521 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:35:55,521 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:35:55,629 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:35:55,630 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:35:55,635 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:35:55,646 - INFO - Worker b93eb5ac-7285-4a51-8858-51dc6e3530e8 started and ready to consume tasks.
+2024-11-19 18:35:55,654 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:35:55,655 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:35:55,656 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:35:55,655 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 18:35:55,657 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 18:35:55,657 - INFO - Starting new heartbeat thread
+2024-11-19 18:35:55,657 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 18:35:55,658 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:35:55,660 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:35:55,660 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:35:55,761 - INFO - (Re-)joining group worker-group1
+2024-11-19 18:35:58,165 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 18:35:58,165 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=1)} for group worker-group1
+2024-11-19 18:35:58,165 - INFO - (Re-)joining group worker-group1
+2024-11-19 18:35:58,213 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 18:35:58,213 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 18:35:58,213 - INFO - (Re-)joining group worker-group1
+2024-11-19 18:35:58,220 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 18:35:58,224 - INFO - Successfully joined group worker-group1 with generation 3
+2024-11-19 18:35:58,224 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)]
+2024-11-19 18:35:58,224 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 18:35:58,260 - INFO - Successfully joined group worker-group1 with generation 3
+2024-11-19 18:35:58,260 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 18:35:58,260 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 18:35:58,301 - INFO - Successfully joined group worker-group1 with generation 3
+2024-11-19 18:35:58,301 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 18:35:58,301 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:35:58,301 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=1)} for group worker-group1
+2024-11-19 18:35:58,301 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:38:03,338 - INFO - Stopping heartbeat thread
+2024-11-19 18:38:03,708 - INFO - Stopping heartbeat thread
+2024-11-19 18:38:05,921 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connected> [IPv4 ('127.0.1.1', 9092)]>: Closing connection. 
+2024-11-19 18:38:05,972 - INFO - Stopping heartbeat thread
+2024-11-19 18:38:15,697 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:38:15,697 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:38:15,697 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:38:15,800 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:38:15,800 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:38:15,803 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:38:15,804 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:38:15,804 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:38:15,908 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:38:15,909 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:38:15,909 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 18:38:15,911 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:38:15,912 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:38:15,912 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:38:16,015 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:38:16,015 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:38:16,016 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:38:16,023 - INFO - Worker 6c56238b-6372-4ae8-96e9-894f8667e3bd started and ready to consume tasks.
+2024-11-19 18:38:16,025 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:38:16,025 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:38:16,025 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:38:16,026 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 18:38:16,026 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 18:38:16,026 - INFO - Starting new heartbeat thread
+2024-11-19 18:38:16,027 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 18:38:16,027 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:38:16,028 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:38:16,028 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:38:16,129 - INFO - (Re-)joining group worker-group1
+2024-11-19 18:38:16,133 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 18:38:16,134 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:38:16,135 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:38:16,138 - INFO - Successfully joined group worker-group1 with generation 5
+2024-11-19 18:38:16,138 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 18:38:16,139 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=4)} for group worker-group1
+2024-11-19 18:38:18,240 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:38:18,241 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:38:18,241 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:38:18,377 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:38:18,377 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:38:18,428 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:38:18,428 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:38:18,428 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:38:18,532 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:38:18,533 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:38:18,533 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 18:38:18,534 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:38:18,534 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:38:18,535 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:38:18,638 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:38:18,638 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:38:18,641 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:38:18,643 - INFO - Worker 410e9077-0107-425e-94e6-655968abfd0a started and ready to consume tasks.
+2024-11-19 18:38:18,644 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:38:18,645 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:38:18,645 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:38:18,648 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 18:38:18,648 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 18:38:18,648 - INFO - Starting new heartbeat thread
+2024-11-19 18:38:18,649 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 18:38:18,650 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:38:18,652 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:38:18,653 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:38:18,758 - INFO - (Re-)joining group worker-group1
+2024-11-19 18:38:19,180 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 18:38:19,180 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=4)} for group worker-group1
+2024-11-19 18:38:19,180 - INFO - (Re-)joining group worker-group1
+2024-11-19 18:38:19,183 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 18:38:19,191 - INFO - Successfully joined group worker-group1 with generation 6
+2024-11-19 18:38:19,200 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 18:38:19,202 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=0)} for group worker-group1
+2024-11-19 18:38:19,217 - INFO - Successfully joined group worker-group1 with generation 6
+2024-11-19 18:38:19,218 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 18:38:19,218 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=5)} for group worker-group1
+2024-11-19 18:38:19,228 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:38:19,230 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:38:21,336 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:38:21,336 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:38:21,336 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:38:21,479 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:38:21,519 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:38:21,541 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:38:21,555 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:38:21,555 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:38:21,658 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:38:21,659 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:38:21,659 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 18:38:21,659 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 18:38:21,660 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 18:38:21,660 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 18:38:21,763 - INFO - Broker version identified as 2.6.0
+2024-11-19 18:38:21,763 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 18:38:21,764 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:38:21,765 - INFO - Worker 66cae0d8-9fcd-4173-bc4f-d05b960c30c9 started and ready to consume tasks.
+2024-11-19 18:38:21,767 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:38:21,767 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:38:21,767 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:38:21,777 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 18:38:21,777 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 18:38:21,777 - INFO - Starting new heartbeat thread
+2024-11-19 18:38:21,780 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 18:38:21,780 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:38:21,811 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:38:21,812 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 18:38:21,912 - INFO - (Re-)joining group worker-group1
+2024-11-19 18:38:22,205 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 18:38:22,205 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=0)} for group worker-group1
+2024-11-19 18:38:22,205 - INFO - (Re-)joining group worker-group1
+2024-11-19 18:38:22,222 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 18:38:22,222 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=5)} for group worker-group1
+2024-11-19 18:38:22,222 - INFO - (Re-)joining group worker-group1
+2024-11-19 18:38:22,225 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 18:38:22,228 - INFO - Successfully joined group worker-group1 with generation 7
+2024-11-19 18:38:22,228 - INFO - Successfully joined group worker-group1 with generation 7
+2024-11-19 18:38:22,228 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 18:38:22,228 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)]
+2024-11-19 18:38:22,228 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=0)} for group worker-group1
+2024-11-19 18:38:22,229 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5)} for group worker-group1
+2024-11-19 18:38:22,229 - INFO - Successfully joined group worker-group1 with generation 7
+2024-11-19 18:38:22,229 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 18:38:22,229 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=1)} for group worker-group1
+2024-11-19 18:38:22,231 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 18:38:22,231 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 18:38:40,033 - INFO - Worker 6c56238b-6372-4ae8-96e9-894f8667e3bd processing task 22afe993-8cb1-41e3-8a85-80d571f87937: divide([1, 0])
+2024-11-19 18:38:40,036 - INFO - Worker 66cae0d8-9fcd-4173-bc4f-d05b960c30c9 processing task 6c72e8a0-d3eb-443c-8bb4-2879585ed578: add([1, 2])
+2024-11-19 18:38:40,037 - WARNING - Task 22afe993-8cb1-41e3-8a85-80d571f87937 failed (1/3). Retrying in 5s...
+2024-11-19 18:38:40,039 - INFO - Worker 410e9077-0107-425e-94e6-655968abfd0a processing task c9c8d23d-88b4-4055-bea5-896d61e9d92a: sub([5, 3])
+2024-11-19 18:38:45,057 - INFO - Worker 6c56238b-6372-4ae8-96e9-894f8667e3bd processing task e98355b4-e8ba-4f93-9e68-f1c806701302: multiply([2, 4])
+2024-11-19 18:38:50,043 - INFO - 'sub' task completed: 5 - 3 = 2
+2024-11-19 18:38:50,056 - INFO - 'add' task completed: 1 + 2 = 3
+2024-11-19 18:38:50,061 - INFO - Worker 410e9077-0107-425e-94e6-655968abfd0a processing task 8857c3f7-147e-4107-89ba-90ed25a2ce4f: sub([15, 7])
+2024-11-19 18:38:50,062 - INFO - Worker 66cae0d8-9fcd-4173-bc4f-d05b960c30c9 processing task b6d35646-53d4-4492-9e9e-49a7cb7e0585: add([10, 20])
+2024-11-19 18:38:55,060 - INFO - 'multiply' task completed: 2 * 4 = 8
+2024-11-19 18:38:55,064 - INFO - Worker 6c56238b-6372-4ae8-96e9-894f8667e3bd processing task 88859fee-9d58-4ab0-9775-6438aafb5a84: multiply([3, 5])
+2024-11-19 18:39:00,063 - INFO - 'sub' task completed: 15 - 7 = 8
+2024-11-19 18:39:00,062 - INFO - 'add' task completed: 10 + 20 = 30
+2024-11-19 18:39:00,071 - INFO - Worker 66cae0d8-9fcd-4173-bc4f-d05b960c30c9 processing task 22afe993-8cb1-41e3-8a85-80d571f87937: divide([1, 0])
+2024-11-19 18:39:00,072 - WARNING - Task 22afe993-8cb1-41e3-8a85-80d571f87937 failed (2/3). Retrying in 5s...
+2024-11-19 18:39:05,064 - INFO - 'multiply' task completed: 3 * 5 = 15
+2024-11-19 18:39:05,080 - INFO - Worker 66cae0d8-9fcd-4173-bc4f-d05b960c30c9 processing task 22afe993-8cb1-41e3-8a85-80d571f87937: divide([1, 0])
+2024-11-19 18:39:05,081 - WARNING - Task 22afe993-8cb1-41e3-8a85-80d571f87937 failed (3/3). Retrying in 5s...
+2024-11-19 18:39:10,097 - INFO - Worker 6c56238b-6372-4ae8-96e9-894f8667e3bd processing task 22afe993-8cb1-41e3-8a85-80d571f87937: divide([1, 0])
+2024-11-19 18:39:10,135 - ERROR - Task 22afe993-8cb1-41e3-8a85-80d571f87937 permanently failed after 3 retries.
+2024-11-19 19:25:17,316 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connected> [IPv4 ('127.0.1.1', 9092)]>: Closing connection. 
+2024-11-19 19:25:17,344 - INFO - Stopping heartbeat thread
+2024-11-19 19:25:19,153 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:25:19,153 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:25:19,153 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:25:19,257 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:25:19,257 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:25:19,260 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:25:19,261 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:25:19,261 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:25:19,394 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:25:19,395 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:25:19,395 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 19:25:19,396 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:25:19,396 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:25:19,396 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:25:19,498 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:25:19,498 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:25:19,501 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:25:19,502 - INFO - Worker 6ea7254d-4f75-4fee-87e5-0d14b7f88bae started and ready to consume tasks.
+2024-11-19 19:25:19,502 - CRITICAL - Failed to consume tasks: 'YADTQWorker' object has no attribute 'consume_tasks'
+2024-11-19 19:25:19,502 - CRITICAL - Worker initialization failed: 'YADTQWorker' object has no attribute 'consume_tasks'
+2024-11-19 19:25:19,502 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:25:28,614 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 19:25:28,615 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=1)} for group worker-group1
+2024-11-19 19:25:28,615 - INFO - (Re-)joining group worker-group1
+2024-11-19 19:25:28,721 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 19:25:28,722 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5)} for group worker-group1
+2024-11-19 19:25:28,722 - INFO - (Re-)joining group worker-group1
+2024-11-19 19:25:28,726 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 19:25:28,728 - INFO - Successfully joined group worker-group1 with generation 8
+2024-11-19 19:25:28,728 - INFO - Successfully joined group worker-group1 with generation 8
+2024-11-19 19:25:28,728 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 19:25:28,728 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 19:25:28,729 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 19:25:28,729 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=5)} for group worker-group1
+2024-11-19 19:26:25,200 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:26:25,201 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:26:25,201 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:26:25,305 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:26:25,305 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:26:25,308 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:26:25,309 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:26:25,309 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:26:25,412 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:26:25,413 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:26:25,413 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 19:26:25,413 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:26:25,414 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:26:25,414 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:26:25,521 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:26:25,521 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:26:25,523 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:26:25,525 - INFO - Worker e2c4bfac-56fc-405c-aa2e-0e341729c0c9 started and ready to consume tasks.
+2024-11-19 19:26:25,526 - CRITICAL - Failed to consume tasks: YADTQWorker.consume_with_retries() missing 1 required positional argument: 'task_functions'
+2024-11-19 19:26:25,526 - CRITICAL - Worker initialization failed: YADTQWorker.consume_with_retries() missing 1 required positional argument: 'task_functions'
+2024-11-19 19:26:25,526 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:27:29,165 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:27:29,165 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:27:29,166 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:27:29,269 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:27:29,269 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:27:29,271 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:27:29,271 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:27:29,272 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:27:29,376 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:27:29,376 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:27:29,376 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 19:27:29,377 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:27:29,378 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:27:29,378 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:27:29,481 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:27:29,481 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:27:29,483 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:27:29,483 - INFO - Worker 12d8a909-8d81-471f-9c09-61a2dae08e76 started and ready to consume tasks.
+2024-11-19 19:27:29,485 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 19:27:29,487 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 19:27:29,487 - INFO - Starting new heartbeat thread
+2024-11-19 19:27:29,486 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:27:29,488 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:27:29,488 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:27:29,489 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 19:27:29,489 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:27:29,490 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:27:29,490 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:27:29,592 - INFO - (Re-)joining group worker-group1
+2024-11-19 19:27:32,080 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 19:27:32,080 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=3), TopicPartition(topic='tasksq', partition=5)} for group worker-group1
+2024-11-19 19:27:32,081 - INFO - (Re-)joining group worker-group1
+2024-11-19 19:27:32,110 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 19:27:32,110 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 19:27:32,110 - INFO - (Re-)joining group worker-group1
+2024-11-19 19:27:32,113 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 19:27:32,115 - INFO - Successfully joined group worker-group1 with generation 9
+2024-11-19 19:27:32,116 - INFO - Successfully joined group worker-group1 with generation 9
+2024-11-19 19:27:32,116 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 19:27:32,116 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=1)} for group worker-group1
+2024-11-19 19:27:32,116 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 19:27:32,116 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5)} for group worker-group1
+2024-11-19 19:27:32,116 - INFO - Successfully joined group worker-group1 with generation 9
+2024-11-19 19:27:32,116 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)]
+2024-11-19 19:27:32,117 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 19:27:32,118 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:27:32,119 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:27:34,327 - INFO - Stopping heartbeat thread
+2024-11-19 19:27:35,701 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:27:35,703 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:27:35,704 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:27:35,808 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:27:35,808 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:27:35,812 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:27:35,813 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:27:35,813 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:27:35,921 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:27:35,921 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:27:35,922 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 19:27:35,924 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:27:35,925 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:27:35,925 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:27:36,029 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:27:36,029 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:27:36,030 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:27:36,031 - INFO - Worker 4be55f98-a2e7-43be-9a71-9f4994a7d6e0 started and ready to consume tasks.
+2024-11-19 19:27:36,034 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:27:36,034 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:27:36,035 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:27:36,035 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 19:27:36,039 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 19:27:36,039 - INFO - Starting new heartbeat thread
+2024-11-19 19:27:36,041 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 19:27:36,042 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:27:36,042 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:27:36,042 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:27:36,143 - INFO - (Re-)joining group worker-group1
+2024-11-19 19:27:38,125 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 19:27:38,125 - WARNING - Heartbeat failed for group worker-group1 because it is rebalancing
+2024-11-19 19:27:38,125 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 19:27:38,125 - INFO - Revoking previously assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=1)} for group worker-group1
+2024-11-19 19:27:38,126 - INFO - (Re-)joining group worker-group1
+2024-11-19 19:27:38,126 - INFO - (Re-)joining group worker-group1
+2024-11-19 19:27:43,120 - INFO - Stopping heartbeat thread
+2024-11-19 19:27:44,349 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:27:44,349 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:27:44,349 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:27:44,454 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:27:44,454 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:27:44,457 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:27:44,458 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:27:44,458 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:27:44,561 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:27:44,561 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:27:44,561 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 19:27:44,562 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:27:44,562 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:27:44,562 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:27:44,666 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:27:44,667 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:27:44,668 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:27:44,670 - INFO - Worker a2687f43-54b0-4150-8841-ca910c4a35df started and ready to consume tasks.
+2024-11-19 19:27:44,671 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:27:44,671 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:27:44,671 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:27:44,674 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 19:27:44,674 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 19:27:44,674 - INFO - Starting new heartbeat thread
+2024-11-19 19:27:44,675 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 19:27:44,675 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:27:44,675 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:27:44,675 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:27:44,776 - INFO - (Re-)joining group worker-group1
+2024-11-19 19:27:44,780 - INFO - (Re-)joining group worker-group1
+2024-11-19 19:27:44,780 - INFO - (Re-)joining group worker-group1
+2024-11-19 19:27:52,170 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 19:27:52,171 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:27:52,172 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:27:52,191 - INFO - Successfully joined group worker-group1 with generation 11
+2024-11-19 19:27:52,202 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 19:27:52,206 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=1)} for group worker-group1
+2024-11-19 19:27:52,206 - INFO - Successfully joined group worker-group1 with generation 11
+2024-11-19 19:27:52,206 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 19:27:52,206 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5)} for group worker-group1
+2024-11-19 19:27:52,218 - INFO - Successfully joined group worker-group1 with generation 11
+2024-11-19 19:27:52,218 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)]
+2024-11-19 19:27:52,218 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 19:27:52,220 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:27:52,221 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:28:39,564 - INFO - Stopping heartbeat thread
+2024-11-19 19:28:45,257 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:28:45,258 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:28:45,259 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:28:45,361 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:28:45,362 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:28:45,365 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:28:45,366 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:28:45,366 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:28:45,469 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:28:45,469 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:28:45,470 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 19:28:45,470 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:28:45,470 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:28:45,470 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:28:45,572 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:28:45,573 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:28:45,576 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:28:45,577 - INFO - Worker 28c15f75-319d-4c4c-903b-b76604cdb291 started and ready to consume tasks.
+2024-11-19 19:28:45,580 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:28:45,581 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:28:45,581 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:28:45,583 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 19:28:45,583 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 19:28:45,584 - INFO - Starting new heartbeat thread
+2024-11-19 19:28:45,584 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 19:28:45,584 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:28:45,585 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:28:45,585 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:28:45,690 - INFO - (Re-)joining group worker-group1
+2024-11-19 19:28:47,671 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:28:47,671 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:28:47,672 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:28:47,774 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:28:47,774 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:28:47,777 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:28:47,778 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:28:47,778 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:28:47,880 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:28:47,880 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:28:47,881 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 19:28:47,881 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:28:47,882 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:28:47,882 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:28:47,993 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:28:47,993 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:28:47,996 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:28:47,997 - INFO - Worker 3fa9c66e-01f1-469f-bbc7-5e6deb7d771f started and ready to consume tasks.
+2024-11-19 19:28:48,024 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:28:48,041 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:28:48,042 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:28:48,042 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 19:28:48,043 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 19:28:48,048 - INFO - Starting new heartbeat thread
+2024-11-19 19:28:48,092 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 19:28:48,110 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:28:48,115 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:28:48,115 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:28:48,228 - INFO - (Re-)joining group worker-group1
+2024-11-19 19:28:49,775 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:28:49,775 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:28:49,776 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:28:49,879 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:28:49,880 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:28:49,882 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:28:49,883 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:28:49,883 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:28:49,995 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:28:49,995 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:28:49,996 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 19:28:49,996 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:28:49,996 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:28:49,997 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:28:50,112 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:28:50,112 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:28:50,114 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:28:50,114 - INFO - Worker 06154379-904b-41e8-a517-6b33fdff7d1f started and ready to consume tasks.
+2024-11-19 19:28:50,140 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 19:28:50,140 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 19:28:50,140 - INFO - Starting new heartbeat thread
+2024-11-19 19:28:50,141 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 19:28:50,142 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:28:50,142 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:28:50,143 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:28:50,143 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:28:50,195 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:28:50,208 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:28:50,311 - INFO - (Re-)joining group worker-group1
+2024-11-19 19:28:50,442 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 19:28:50,442 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:28:50,443 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:28:50,446 - INFO - Successfully joined group worker-group1 with generation 12
+2024-11-19 19:28:50,446 - INFO - Successfully joined group worker-group1 with generation 12
+2024-11-19 19:28:50,446 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 19:28:50,446 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)]
+2024-11-19 19:28:50,446 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=5), TopicPartition(topic='tasksq', partition=2)} for group worker-group1
+2024-11-19 19:28:50,446 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 19:28:50,445 - INFO - Successfully joined group worker-group1 with generation 12
+2024-11-19 19:28:50,455 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 19:28:50,474 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=1)} for group worker-group1
+2024-11-19 19:28:50,497 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:28:50,498 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:28:50,501 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:28:50,502 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:29:00,983 - INFO - Worker 3fa9c66e-01f1-469f-bbc7-5e6deb7d771f processing task c580db8d-4e59-4385-b886-d7158e44f9d3: divide([1, 0])
+2024-11-19 19:29:00,990 - INFO - Worker 06154379-904b-41e8-a517-6b33fdff7d1f processing task 3c1c3551-1fd4-48e1-b0ab-6f1bfe5a571c: add([1, 2])
+2024-11-19 19:29:00,997 - INFO - Worker 28c15f75-319d-4c4c-903b-b76604cdb291 processing task bd59ae06-add5-4eb1-a8b8-32c082d240ed: sub([5, 3])
+2024-11-19 19:29:00,999 - INFO - Worker 3fa9c66e-01f1-469f-bbc7-5e6deb7d771f processing task d1bebef4-b51b-4fe5-990b-06cd7feb1837: multiply([2, 4])
+2024-11-19 19:29:10,999 - INFO - 'add' task completed: 1 + 2 = 3
+2024-11-19 19:29:11,002 - INFO - 'sub' task completed: 5 - 3 = 2
+2024-11-19 19:29:11,002 - INFO - 'multiply' task completed: 2 * 4 = 8
+2024-11-19 19:29:21,000 - INFO - 'add' task completed: 1 + 2 = 3
+2024-11-19 19:29:21,003 - INFO - Worker 06154379-904b-41e8-a517-6b33fdff7d1f processing task 15a1870e-842c-4984-8bd2-60e3d498ee54: add([10, 20])
+2024-11-19 19:29:21,003 - INFO - 'multiply' task completed: 2 * 4 = 8
+2024-11-19 19:29:21,003 - INFO - 'sub' task completed: 5 - 3 = 2
+2024-11-19 19:29:21,005 - INFO - Worker 3fa9c66e-01f1-469f-bbc7-5e6deb7d771f processing task 0d6a82d7-bff0-479b-9308-a08f04fe5dd1: multiply([3, 5])
+2024-11-19 19:29:21,008 - INFO - Worker 28c15f75-319d-4c4c-903b-b76604cdb291 processing task 1da3f960-14ba-4b82-a9f2-6771b2d6dd65: sub([15, 7])
+2024-11-19 19:29:31,005 - INFO - 'add' task completed: 10 + 20 = 30
+2024-11-19 19:29:31,006 - INFO - 'multiply' task completed: 3 * 5 = 15
+2024-11-19 19:29:31,009 - INFO - 'sub' task completed: 15 - 7 = 8
+2024-11-19 19:29:41,011 - INFO - 'multiply' task completed: 3 * 5 = 15
+2024-11-19 19:29:41,014 - INFO - 'sub' task completed: 15 - 7 = 8
+2024-11-19 19:29:41,015 - INFO - 'add' task completed: 10 + 20 = 30
+2024-11-19 19:32:50,166 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:32:50,166 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:32:50,167 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:32:50,269 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:32:50,269 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:32:50,272 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:32:50,272 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:32:50,274 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:32:50,377 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:32:50,378 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:32:50,378 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 19:32:50,380 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:32:50,381 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:32:50,381 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:32:50,487 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:32:50,487 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:32:50,495 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:32:50,496 - INFO - Worker 1069df91-6c7a-4ead-af3f-28b64f3cf860 started and ready to consume tasks.
+2024-11-19 19:32:50,498 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:32:50,499 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:32:50,500 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:32:50,500 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 19:32:50,500 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 19:32:50,501 - INFO - Starting new heartbeat thread
+2024-11-19 19:32:50,501 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 19:32:50,501 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:32:50,502 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:32:50,505 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:32:50,605 - INFO - (Re-)joining group worker-group1
+2024-11-19 19:32:50,606 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:32:50,606 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:32:52,948 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:32:52,949 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:32:52,949 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:32:53,054 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:32:53,054 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:32:53,069 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:32:53,075 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:32:53,080 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:32:53,188 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:32:53,189 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:32:53,190 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 19:32:53,191 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:32:53,191 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:32:53,192 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:32:53,296 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:32:53,297 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:32:53,299 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:32:53,299 - INFO - Worker 5cefc05c-bbab-44f9-b042-ee84b1a12440 started and ready to consume tasks.
+2024-11-19 19:32:53,302 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:32:53,302 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 19:32:53,302 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 19:32:53,303 - INFO - Starting new heartbeat thread
+2024-11-19 19:32:53,303 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:32:53,304 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 19:32:53,304 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:32:53,305 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:32:53,305 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:32:53,307 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:32:53,408 - INFO - (Re-)joining group worker-group1
+2024-11-19 19:32:54,938 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:32:54,938 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:32:54,938 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:32:55,044 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:32:55,044 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:32:55,047 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:32:55,047 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:32:55,047 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:32:55,151 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:32:55,151 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:32:55,151 - INFO - Updating subscribed topics to: ('tasksq',)
+2024-11-19 19:32:55,152 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: connecting to localhost:9092 [('127.0.0.1', 9092) IPv4]
+2024-11-19 19:32:55,152 - INFO - Probing node bootstrap-0 broker version
+2024-11-19 19:32:55,152 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connecting> [IPv4 ('127.0.0.1', 9092)]>: Connection complete.
+2024-11-19 19:32:55,255 - INFO - Broker version identified as 2.6.0
+2024-11-19 19:32:55,256 - INFO - Set configuration api_version=(2, 6, 0) to skip auto check_version requests on startup
+2024-11-19 19:32:55,257 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:32:55,258 - INFO - Worker 7b3fee7e-15b6-40c4-af5d-56dd23378200 started and ready to consume tasks.
+2024-11-19 19:32:55,260 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:32:55,260 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:32:55,260 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:32:55,261 - INFO - Group coordinator for worker-group1 is BrokerMetadata(nodeId='coordinator-0', host='praneel-patel-VirtualBox', port=9092, rack=None)
+2024-11-19 19:32:55,262 - INFO - Discovered coordinator coordinator-0 for group worker-group1
+2024-11-19 19:32:55,262 - INFO - Starting new heartbeat thread
+2024-11-19 19:32:55,264 - INFO - Revoking previously assigned partitions set() for group worker-group1
+2024-11-19 19:32:55,264 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:32:55,269 - INFO - <BrokerConnection node_id=coordinator-0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:32:55,269 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:32:55,371 - INFO - (Re-)joining group worker-group1
+2024-11-19 19:32:55,709 - INFO - Elected group leader -- performing partition assignments using roundrobin
+2024-11-19 19:32:55,711 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:32:55,711 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:32:55,711 - INFO - Successfully joined group worker-group1 with generation 13
+2024-11-19 19:32:55,711 - INFO - Successfully joined group worker-group1 with generation 13
+2024-11-19 19:32:55,711 - INFO - Successfully joined group worker-group1 with generation 13
+2024-11-19 19:32:55,712 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)]
+2024-11-19 19:32:55,712 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=0), TopicPartition(topic='tasksq', partition=3)} for group worker-group1
+2024-11-19 19:32:55,712 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=1), TopicPartition(topic='tasksq', partition=4)]
+2024-11-19 19:32:55,712 - INFO - Updated partition assignment: [TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5)]
+2024-11-19 19:32:55,712 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=4), TopicPartition(topic='tasksq', partition=1)} for group worker-group1
+2024-11-19 19:32:55,712 - INFO - Setting newly assigned partitions {TopicPartition(topic='tasksq', partition=2), TopicPartition(topic='tasksq', partition=5)} for group worker-group1
+2024-11-19 19:32:55,713 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:32:55,714 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:32:55,714 - INFO - <BrokerConnection node_id=bootstrap-0 host=localhost:9092 <connected> [IPv4 ('127.0.0.1', 9092)]>: Closing connection. 
+2024-11-19 19:32:55,714 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: connecting to praneel-patel-VirtualBox:9092 [('127.0.1.1', 9092) IPv4]
+2024-11-19 19:32:55,714 - INFO - <BrokerConnection node_id=0 host=praneel-patel-VirtualBox:9092 <connecting> [IPv4 ('127.0.1.1', 9092)]>: Connection complete.
+2024-11-19 19:33:15,593 - INFO - Worker 5cefc05c-bbab-44f9-b042-ee84b1a12440 processing task d359b35e-ec6d-42aa-bed2-c4e09b2001b5: divide([1, 0])
+2024-11-19 19:33:15,595 - ERROR - Task d359b35e-ec6d-42aa-bed2-c4e09b2001b5 has a non -retryable error
+2024-11-19 19:33:15,596 - INFO - Worker 1069df91-6c7a-4ead-af3f-28b64f3cf860 processing task d475a606-74db-4d82-97f5-2f427f8d4def: add([1, 2])
+2024-11-19 19:33:15,600 - INFO - Worker 7b3fee7e-15b6-40c4-af5d-56dd23378200 processing task f9fba918-d8b9-46b6-91db-f0354e0e95ea: sub([5, 3])
+2024-11-19 19:33:15,601 - INFO - Worker 5cefc05c-bbab-44f9-b042-ee84b1a12440 processing task 9c534673-7fba-45a5-93de-f1623cc36cae: multiply([2, 4])
+2024-11-19 19:33:25,598 - INFO - 'add' task completed: 1 + 2 = 3
+2024-11-19 19:33:25,607 - INFO - 'multiply' task completed: 2 * 4 = 8
+2024-11-19 19:33:25,627 - INFO - 'sub' task completed: 5 - 3 = 2
+2024-11-19 19:33:35,599 - INFO - 'add' task completed: 1 + 2 = 3
+2024-11-19 19:33:35,611 - INFO - 'multiply' task completed: 2 * 4 = 8
+2024-11-19 19:33:35,619 - INFO - Worker 1069df91-6c7a-4ead-af3f-28b64f3cf860 processing task 59f7d1bd-1793-43aa-af90-7ef81d0772f6: add([10, 20])
+2024-11-19 19:33:35,628 - INFO - 'sub' task completed: 5 - 3 = 2
+2024-11-19 19:33:35,629 - INFO - Worker 5cefc05c-bbab-44f9-b042-ee84b1a12440 processing task 7f282afa-9611-4fef-9539-15aa57161858: multiply([3, 5])
+2024-11-19 19:33:35,631 - INFO - Worker 7b3fee7e-15b6-40c4-af5d-56dd23378200 processing task b7520fc3-92ef-4d24-9ea7-ffe08191dd25: sub([15, 7])
+2024-11-19 19:33:45,625 - INFO - 'add' task completed: 10 + 20 = 30
+2024-11-19 19:33:45,630 - INFO - 'multiply' task completed: 3 * 5 = 15
+2024-11-19 19:33:45,631 - INFO - 'sub' task completed: 15 - 7 = 8
+2024-11-19 19:33:55,627 - INFO - 'add' task completed: 10 + 20 = 30
+2024-11-19 19:33:55,632 - INFO - 'multiply' task completed: 3 * 5 = 15
+2024-11-19 19:33:55,632 - INFO - 'sub' task completed: 15 - 7 = 8
